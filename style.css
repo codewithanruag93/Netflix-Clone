@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+.main{
+    background: url(pics/background.jpg);
+    background-repeat: no-repeat;
+    background-size:max(1000px 100vw) ;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.main .box{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    background-color: black;
+}
+nav{
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    /* margin-top: 20px; */
+    justify-content: space-between;
+}
+.img-logo{
+    margin-top: 30px;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+.buttons{
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left:10px;
+    
+    position: relative;
+    z-index: 10;
+}
+.select-button{
+    width: 110px;
+    height: 32px;
+    background: rgba(0, 0, 0, 0.224);
+    color: white;
+    position: relative;
+    border: 2px solid rgba(0, 0, 0, 0.784);;
+    margin-right: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 4px;
+
+}
+.sign-in-button{
+    width: 75px;
+    height: 32px;
+    background-color: rgb(209, 12, 12);
+    color: white;
+    border: rgb(209, 12, 12);
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.hero{
+    position: relative;
+    top: -90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    color: white;
+    z-index: 10;
+    /* margin-bottom: 20px; */
+}
+.hero span:first-child{
+    font-size: 3rem;
+    font-weight:800 ;
+}
+.hero span:nth-child(2){
+    margin-top:20px;
+    font-size:24px;
+    font-weight: 500;
+}
+.hero span:last-child{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
